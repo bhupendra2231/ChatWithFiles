@@ -31,7 +31,7 @@ conda install -r requirements.txt
 5.Set up your Google API key as an environment variable:
 GOOGLE_API_KEY="your_api_key"
 
-##Usage
+## Usage
 
 1.Run the Streamlit application: streamlit run app.py
 2.The application will open in your default web browser.
