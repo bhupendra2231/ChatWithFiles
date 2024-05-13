@@ -19,25 +19,25 @@ Before running the application, make sure you have the following prerequisites i
 
 ## Installation
 
-1. Clone the repository:
-git clone https://github.com/your-username/ChatWithFiles.git
-Navigate to the project directory:
-2.Create a virtual environment (optional but recommended)
-conda create  -p venv
-3.Activate the virtual environment
-conda activate ./venv
-4.Install the required packages:
-conda install -r requirements.txt
-5.Set up your Google API key as an environment variable:
-GOOGLE_API_KEY="your_api_key"
+- Clone the repository:
+  git clone https://github.com/your-username/ChatWithFiles.git
+- Navigate to the project directory:
+- Create a virtual environment (optional but recommended)
+  conda create  -p venv
+- Activate the virtual environment
+  conda activate ./venv
+- Install the required packages:
+  conda install -r requirements.txt
+- Set up your Google API key as an environment variable:
+  GOOGLE_API_KEY="your_api_key"
 
 ## Usage
 
-1.Run the Streamlit application: streamlit run app.py
-2.The application will open in your default web browser.
-3.Upload the files you want to ask questions about by clicking the "Upload your files(.pdf/.txt/.docx)" button in the sidebar.
-4.Once the files are uploaded and processed, enter your question in the text input field.
-5.The application will search for relevant information from the uploaded files and provide a detailed answer using Google's Generative AI (Gemini) model.
-6.You can ask multiple questions and get answers based on the uploaded files.
+- Run the Streamlit application: streamlit run app.py
+- The application will open in your default web browser.
+- Upload the files you want to ask questions about by clicking the "Upload your files(.pdf/.txt/.docx)" button in the sidebar.
+- Once the files are uploaded and processed, enter your question in the text input field.
+- The application will search for relevant information from the uploaded files and provide a detailed answer using Google's Generative AI (Gemini) model.
+- You can ask multiple questions and get answers based on the uploaded files.
 
 
