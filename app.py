@@ -4,9 +4,8 @@ from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
 import io
-import docx # type: ignore
-from docx import Document # type: ignore
-
+import docx 
+from docx import Document 
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
 from langchain.vectorstores import FAISS
