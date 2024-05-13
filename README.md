@@ -22,9 +22,9 @@ Before running the application, make sure you have the following prerequisites i
 - Clone the repository:
   git clone https://github.com/your-username/ChatWithFiles.git
 - Navigate to the project directory:
-- Create a virtual environment (optional but recommended)
+- Create a virtual environment (optional but recommended):
   conda create  -p venv
-- Activate the virtual environment
+- Activate the virtual environment:
   conda activate ./venv
 - Install the required packages:
   conda install -r requirements.txt
